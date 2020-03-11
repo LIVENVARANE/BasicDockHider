@@ -1,0 +1,9 @@
+Package: com.liven.basicdockhider
+Name: BasicDockHider
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Just another dock hider tweak
+Maintainer: LIVEN
+Author: LIVEN
+Section: Tweaks

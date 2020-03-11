@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>height</key>
+			<string>133</string>
+			<key>cell</key>
+			<string>PSStaticCell</string>
+			<key>icon</key>
+			<string>header.png</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Apply changes</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>respring</string>
+			<key>label</key>
+			<string>Restart springboard</string>
+			<key>icon</key>
+			<string>respring.png</string>
+			<key>isDestructive</key>
+			<true/>
+			<key>confirmation</key>
+			<dict>
+				<key>prompt</key>
+				<string>Do you really want to respring? This will apply all changes done to this tweak and other tweaks settings.</string>
+				<key>title</key>
+				<string>Respring</string>
+				<key>okTitle</key>
+				<string>Respring</string>
+				<key>cancelTitle</key>
+				<string>Cancel</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Tweak settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.liven.bdhprefs</string>
+			<key>key</key>
+			<string>enableDockBackground</string>
+			<key>label</key>
+			<string>Hide dock background</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.liven.bdhprefs</string>
+			<key>key</key>
+			<string>CustomDockOpacityEnabled</string>
+			<key>label</key>
+			<string>Custom dock opacity</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>min</key>
+			<string>0.0</string>
+			<key>max</key>
+			<string>1.0</string>
+			<key>showValue</key>
+			<false/>
+			<key>default</key>
+			<real>10</real>
+			<key>leftImage</key>
+			<string>down-arrow.png</string>
+			<key>rightImage</key>
+			<string>up-arrow.png</string>
+			<key>defaults</key>
+			<string>com.liven.bdhprefs</string>
+			<key>key</key>
+			<string>CustomDockOpacity</string>
+			<key>isSegmented</key>
+			<true/>
+			<key>segmentCount</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Made by Liven with ❤️</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow me on Reddit</string>
+			<key>action</key>
+			<string>openReddit</string>
+			<key>icon</key>
+			<string>reddit.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow me on Twitter</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>action</key>
+			<string>openTwitter</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>BasicDockHider version INFDEV-0.1</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>BasicDockHider</string>
+</dict>
+</plist>
