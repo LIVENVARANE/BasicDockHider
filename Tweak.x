@@ -1,6 +1,6 @@
 //
-//  BasicDockHider by Liven
-//    Follow me on: u/LVN_N, @LivenOff
+//  BasicDockHider version 1.0 by Liven
+//    Follow me: u/LVN_N, @LivenOff
 //    If you use anything of my tweak, please send me a private message on my twitter (@LivenOff) before publishing it.
 //
 

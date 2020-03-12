@@ -1,4 +1,7 @@
 #include "BDHRootListController.h"
+@interface SpringBoard : UIApplication
+- (void)_relaunchSpringBoardNow;
+@end
 
 @implementation BDHRootListController
 
@@ -30,8 +33,11 @@
     }];
 }
 
-- (void)respring {
-    
+- (void)respring:(id)sender { //not from me
+	pid_t pid;
+    const char* args[] = {"killall", "backboardd", NULL};
+    posix_spawn(&pid, "/usr/bin/killall", NULL, NULL, (char* const*)args, NULL);
 }
+
 
 @end
