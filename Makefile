@@ -1,7 +1,9 @@
-ARCHS = arm64 armv7
+ARCHS = arm64 arm64e
 INSTALL_TARGET_PROCESSES = SpringBoard
 
 include $(THEOS)/makefiles/common.mk
+
+PACKAGE_VERSION=1.1.1
 
 TWEAK_NAME = BasicDockHider
 

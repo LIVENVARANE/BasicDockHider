@@ -1,7 +1,7 @@
 Package: com.liven.basicdockhider
 Name: BasicDockHider
 Depends: mobilesubstrate
-Version: 1.0
+Version: 1.1.1
 Architecture: iphoneos-arm
 Description: Hide the dock background or change its opacity!
 Maintainer: LIVEN

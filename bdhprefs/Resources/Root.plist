@@ -127,7 +127,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>BasicDockHider version 1.0</string>
+			<string>BasicDockHider version 1.1.1</string>
 		</dict>
 	</array>
 	<key>title</key>
